@@ -11,7 +11,7 @@ You can try out the sample app from the releases page. [Download here.](https://
 ## 🧬 Samples
 
 | Sample  |   |
-|---|--:|
+|:--|--:|
 | <br> **Honeycomb Menu** <br> A honeycomb collapsible menu. <br><br>• Animatable<br>• Transitions<br>• Custom shapes<br><br> **[> Browse](app/src/main/java/dev/fabirt/composelab/ui/screen/sample/HoneycombMenuSampleScreen.kt)**<br><br> | <img src="docs/honeycomb-menu.gif" width="300" alt="Honeycomb menu sample gif"> |
 |  |  |
 | <br> **Compass Animation** <br> It uses a canvas to draw custom paths and create a compass, whose needle animates infinitely.<br><br>• Canvas<br>• Animation<br>• Infinite transition<br>• Easing <br><br> **[> Browse](app/src/main/java/dev/fabirt/composelab/ui/screen/sample/CompassSampleScreen.kt)**<br><br> | <img src="docs/compass.gif" width="300" alt="Compass animation sample gif"> |

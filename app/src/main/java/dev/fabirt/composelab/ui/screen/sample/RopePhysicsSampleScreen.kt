@@ -1,6 +1,5 @@
 package dev.fabirt.composelab.ui.screen.sample
 
-import android.util.Log
 import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.animateOffsetAsState
@@ -79,27 +78,9 @@ fun RopePhysicsScreenContent(
         val x = nodeAPosition.x + dx / 2
         val b = -(m * nodeAPosition.x - nodeAPosition.y)
         var y = m * x + b
-        var ac = ab / 2
-        var bc = ac
         if (ab < threshold) {
             y += (threshold - ab) / 2
-
-            ac = sqrt((nodeAPosition.x - x).pow(2) + (nodeAPosition.y - y).pow(2))
-            bc = sqrt((nodeBPosition.x - x).pow(2) + (nodeBPosition.y - y).pow(2))
         }
-        Log.i(
-            "Rope/info", """Info
-            p1: (${nodeAPosition.x}, ${nodeAPosition.y})
-            p2: (${nodeBPosition.x}, ${nodeBPosition.y})
-            dx: $dx
-            dy: $dy
-            m: $m
-            b: $b
-            ab: $ab
-            ac: $ac
-            bc: $bc
-        """.trimIndent()
-        )
         Offset(x, y)
     }
 

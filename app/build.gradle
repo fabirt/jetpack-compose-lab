@@ -20,6 +20,11 @@ android {
     }
 
     buildTypes {
+        debug {
+            applicationIdSuffix ".debug"
+            debuggable true
+            versionNameSuffix "-debug"
+        }
         release {
             minifyEnabled true
             shrinkResources true
