@@ -30,6 +30,16 @@ android {
             shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+
+        applicationVariants.all{
+            variant ->
+                variant.outputs.each {
+                    output ->
+                        def newName = output.outputFile.name
+                        newName = newName.replace("-unsigned", "")
+                        output.outputFileName  = newName
+                }
+        }
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
