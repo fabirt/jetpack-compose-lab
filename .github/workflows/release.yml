@@ -1,4 +1,4 @@
-name: GitHub Release with APKs
+name: release
 
 on:
   push:

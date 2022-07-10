@@ -1,7 +1,7 @@
 # Jetpack Compose Lab
 
 ![build workflow status](https://github.com/fabirt/jetpack-compose-lab/actions/workflows/release.yml/badge.svg)
-![latest release](https://img.shields.io/github/v/release/fabirt/jetpack-compose-lab)
+![latest release](https://img.shields.io/github/v/release/fabirt/jetpack-compose-lab?label=version)
 
 This repository contains a collection of Jetpack Compose samples, widgets, animations and more.
 
