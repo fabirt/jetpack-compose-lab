@@ -2,11 +2,10 @@
 
 This repository contains a collection of Jetpack Compose samples, widgets, animations and more.
 
-For more information, refer to [Jetpack Compose documentation](https://developer.android.com/jetpack/compose)
+For more information, refer to [Jetpack Compose documentation.](https://developer.android.com/jetpack/compose)
 
 ## 📱 Demo
-
-You can try out the sample app from the releases page. [Download here.](https://developer.android.com/jetpack/compose)
+You can try out the sample app from the releases page. [Download here.](https://github.com/fabirt/jetpack-compose-lab/releases/download/v1.0.0/composelab-release-v1.0.0.apk)
 
 ## 🧬 Samples
 
