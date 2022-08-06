@@ -61,7 +61,6 @@ fun HomeScreen(navController: NavController) {
                 }
                 false
             }
-            .sortedBy { it.title }
     }
 
     val focusManager = LocalFocusManager.current

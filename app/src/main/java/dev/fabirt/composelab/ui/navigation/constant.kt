@@ -11,3 +11,5 @@ const val SAMPLE_COMPASS_VIEW = "compassView"
 const val SAMPLE_ROPE_PHYSICS = "ropePhysics"
 
 const val SAMPLE_ANIMATED_BARS = "animatedBars"
+
+const val SAMPLE_AIR_DROP_ANIMATION = "airDropAnimation"

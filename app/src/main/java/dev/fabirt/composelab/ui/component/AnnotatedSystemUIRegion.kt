@@ -8,6 +8,7 @@ import com.google.accompanist.systemuicontroller.rememberSystemUiController
 @Composable
 fun AnnotatedSystemUIRegion(
     isAppearanceLight: Boolean = false,
+    disposeToLightAppearance: Boolean = true,
     content: @Composable () -> Unit
 ) {
     val systemUiController = rememberSystemUiController()
@@ -21,7 +22,7 @@ fun AnnotatedSystemUIRegion(
         onDispose {
             systemUiController.setSystemBarsColor(
                 color = transparent,
-                darkIcons = !isAppearanceLight
+                darkIcons = disposeToLightAppearance
             )
         }
     }

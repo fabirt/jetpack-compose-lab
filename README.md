@@ -20,4 +20,6 @@ You can try out the sample app from the releases page. [Download here.](https://
 |  |  |
 | <br> **Rope drag and drop** <br> Simulate a basic rope physics.<br><br>• Gestures<br>• Drag & Drop<br>• Canvas<br>• Spring transition <br><br> **[> Browse](app/src/main/java/dev/fabirt/composelab/ui/screen/sample/RopePhysicsSampleScreen.kt)**<br><br> | <img src="docs/rope.gif" width="300" alt="Rope sample gif"> |
 |  |  |
-| <br> **Animated Bars** <br> Music app like animation.<br><br>• Animation<br>• State transition<br><br> **[> Browse](app/src/main/java/dev/fabirt/composelab/ui/screen/sample/AnimatedBarsSampleScreen.kt)**<br><br> | <img src="docs/animated-bars.gif" width="300" alt="Rope sample gif"> |
+| <br> **Animated Bars** <br> Music app like animation.<br><br>• Animation<br>• State transition<br><br> **[> Browse](app/src/main/java/dev/fabirt/composelab/ui/screen/sample/AnimatedBarsSampleScreen.kt)**<br><br> | <img src="docs/animated-bars.gif" width="300" alt="Animated bars sample gif"> |
+|  |  |
+| <br> **Air Drop animation** <br> State based animation.<br><br>• Transition<br>• State Holder<br>• Canvas<br><br><br> **[> Browse](app/src/main/java/dev/fabirt/composelab/ui/screen/sample/AirDropSampleScreen.kt)**<br><br> | <img src="docs/air-drop.gif" width="300" alt="Air drop sample gif"> |

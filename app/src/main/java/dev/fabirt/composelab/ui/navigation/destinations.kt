@@ -2,16 +2,14 @@ package dev.fabirt.composelab.ui.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavController
-import dev.fabirt.composelab.ui.screen.sample.CompassSampleScreen
-import dev.fabirt.composelab.ui.screen.sample.HoneycombMenuSampleScreen
-import dev.fabirt.composelab.ui.screen.sample.RopePhysicsSampleScreen
-import dev.fabirt.composelab.ui.screen.sample.AnimatedBarsSampleScreen
+import dev.fabirt.composelab.ui.screen.sample.*
 
 val samples = mapOf<String, @Composable (NavController) -> Unit>(
     SAMPLE_HONEYCOMB_MENU to { navController -> HoneycombMenuSampleScreen(navController) },
     SAMPLE_COMPASS_VIEW to { navController -> CompassSampleScreen(navController) },
     SAMPLE_ROPE_PHYSICS to { navController -> RopePhysicsSampleScreen(navController) },
     SAMPLE_ANIMATED_BARS to { navController -> AnimatedBarsSampleScreen(navController) },
+    SAMPLE_AIR_DROP_ANIMATION to { navController -> AirDropSampleScreen(navController) },
 )
 
 sealed class Destination(val route: String) {

@@ -35,4 +35,10 @@ val samplesMenu = listOf(
         R.drawable.sample_animated_bars,
         listOf("Challenge", "Animation"),
     ),
+    SampleBuilder(
+        "Air Drop Animation",
+        Destination.Sample(SAMPLE_AIR_DROP_ANIMATION),
+        R.drawable.sample_air_drop,
+        listOf("Challenge", "Transition", "State holder", "Canvas"),
+    ),
 )

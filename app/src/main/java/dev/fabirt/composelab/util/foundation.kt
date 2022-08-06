@@ -8,6 +8,8 @@ typealias VoidCallback = () -> Unit
 
 typealias ValueChange<T> = (T) -> Unit
 
+typealias ValueProvider<T> = () -> T
+
 @Composable
 fun Float.toPx(): Float {
     return with(LocalDensity.current) { dp.toPx() }
