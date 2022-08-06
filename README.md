@@ -19,3 +19,5 @@ You can try out the sample app from the releases page. [Download here.](https://
 | <br> **Compass Animation** <br> It uses a canvas to draw custom paths and create a compass, whose needle animates infinitely.<br><br>• Canvas<br>• Animation<br>• Infinite transition<br>• Easing <br><br> **[> Browse](app/src/main/java/dev/fabirt/composelab/ui/screen/sample/CompassSampleScreen.kt)**<br><br> | <img src="docs/compass.gif" width="300" alt="Compass animation sample gif"> |
 |  |  |
 | <br> **Rope drag and drop** <br> Simulate a basic rope physics.<br><br>• Gestures<br>• Drag & Drop<br>• Canvas<br>• Spring transition <br><br> **[> Browse](app/src/main/java/dev/fabirt/composelab/ui/screen/sample/RopePhysicsSampleScreen.kt)**<br><br> | <img src="docs/rope.gif" width="300" alt="Rope sample gif"> |
+|  |  |
+| <br> **Animated Bars** <br> Music app like animation.<br><br>• Animation<br>• State transition<br><br> **[> Browse](app/src/main/java/dev/fabirt/composelab/ui/screen/sample/AnimatedBarsSampleScreen.kt)**<br><br> | <img src="docs/animated-bars.gif" width="300" alt="Rope sample gif"> |

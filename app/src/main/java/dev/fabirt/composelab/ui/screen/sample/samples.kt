@@ -1,10 +1,7 @@
 package dev.fabirt.composelab.ui.screen.sample
 
 import dev.fabirt.composelab.R
-import dev.fabirt.composelab.ui.navigation.Destination
-import dev.fabirt.composelab.ui.navigation.SAMPLE_COMPASS_VIEW
-import dev.fabirt.composelab.ui.navigation.SAMPLE_HONEYCOMB_MENU
-import dev.fabirt.composelab.ui.navigation.SAMPLE_ROPE_PHYSICS
+import dev.fabirt.composelab.ui.navigation.*
 
 data class SampleBuilder(
     val title: String,
@@ -31,5 +28,11 @@ val samplesMenu = listOf(
         Destination.Sample(SAMPLE_ROPE_PHYSICS),
         R.drawable.rope_sample,
         listOf("Gestures", "Drag", "Curves", "Transition"),
+    ),
+    SampleBuilder(
+        "Animated Bars",
+        Destination.Sample(SAMPLE_ANIMATED_BARS),
+        R.drawable.sample_animated_bars,
+        listOf("Challenge", "Animation"),
     ),
 )
